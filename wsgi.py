@@ -1,0 +1,1 @@
+from zen_flask.app import app

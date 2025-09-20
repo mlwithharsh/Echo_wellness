@@ -2,14 +2,15 @@
   "version": 2,
   "builds": [
     {
-      "src": "zen_flask/app.py",
-      "use": "@vercel/python"
+      "src": "wsgi.py",
+      "use": "@vercel/python",
+      "config": { "handler": "wsgi.app" }
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "zen_flask/app.py"
+      "dest": "wsgi.py"
     }
   ],
   "env": {
