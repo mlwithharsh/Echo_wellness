@@ -1,5 +1,4 @@
 streamlit==1.47.1
-python==3.11
 streamlit-lottie==0.0.5
 requests==2.32.4
 openai-whisper==20240824
