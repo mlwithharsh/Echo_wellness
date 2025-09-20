@@ -1,8 +1,7 @@
 streamlit==1.47.1
 streamlit-lottie==0.0.5
 requests==2.32.4
-openai-whisper==20240930
---extra-index-url https://download.pytorch.org/whl/cpu
+openai-whisper==20240824
 torch==2.3.1+cpu
 torchaudio==2.3.1+cpu
 numpy==2.2.6
